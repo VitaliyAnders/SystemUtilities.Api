@@ -12,7 +12,9 @@ This is a quick sample of .net core 2.0 based application, that allows to show a
 Open solution in Visual Studio
 Build and Run application ( F5 )
 
-Then just call the api ( from Postman for example ) 
+Then just call the api ( from Postman for example )  
 
-To get  (GET)    baseurl/api/SystemProcess
-To stop (DELETE) baseurl/api/SystemProcess/id  ( where id - some process number )
+To get  (GET)    baseurl/api/SystemProcess  
+To stop (DELETE) baseurl/api/SystemProcess/id  ( where id - some process number )  
+
+## The process should be run under the User with enough access right to System processes. 
